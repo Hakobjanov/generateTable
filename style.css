@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 25px 15px 0;
+  text-align: center;
+}
+
+.form-group {
+}
+
+table {
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+td {
+  border: 1px solid #000;
+  padding: 20px;
+}
+
+.sum {
+  background: rgb(122, 201, 58);
+  font-weight: bold;
+}
+
+.btn-cell {
+  border: none;
+  padding: 10px;
+}
+
+.del-btn {
+  background: rgb(255, 81, 81);
+  padding: 10px;
+}
+
+.add-btn {
+  background: rgb(15, 255, 55);
+  padding: 10px;
+}
+
+.average {
+  background: rgb(76, 132, 150);
+  font-weight: bold;
+}

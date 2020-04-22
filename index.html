@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>RandomNumberTables</title>
+  </head>
+  <body>
+    <div class="container">
+      <form class="form-group">
+        <label for="rows">Rows</label>
+        <input type="text" id="rows" />
+        <label for="colums">Colums</label>
+        <input type="text" id="colums" />
+        <label for="neighbours">Closest cells</label>
+        <input type="text" id="neighbours" />
+        <button class="draw-btn">Draw Table-Table</button>
+      </form>
+      <table class="table">
+        <tr>
+          <td>1</td>
+          <td>2</td>
+          <td>3</td>
+          <td class="sum">4</td>
+          <td class="btn-cell"><button class="del-btn">del</button></td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>6</td>
+          <td>7</td>
+          <td class="sum">8</td>
+          <td class="btn-cell"><button class="del-btn">del</button></td>
+        </tr>
+        <tr>
+          <td>9</td>
+          <td>1</td>
+          <td>2</td>
+          <td class="sum">3</td>
+          <td class="btn-cell"><button class="del-btn">del</button></td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>5</td>
+          <td>6</td>
+          <td class="sum">7</td>
+          <td class="btn-cell"><button class="del-btn">del</button></td>
+        </tr>
+        <tr>
+          <td class="average">22</td>
+          <td class="average">21</td>
+          <td class="average">20</td>
+          <td class="sum-average"></td>
+          <td class="btn-cell"><button class="add-btn">add</button></td>
+        </tr>
+      </table>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
