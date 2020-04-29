@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Domine&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./style.css" />
     <title>RandomNumberTables</title>
   </head>
@@ -10,11 +14,11 @@
     <div class="container">
       <form class="form-group">
         <label for="rows">Rows</label>
-        <input type="text" id="rows" />
-        <label for="colums">Colums</label>
-        <input type="text" id="colums" />
-        <label for="neighbours">Closest cells</label>
-        <input type="text" id="neighbours" />
+        <input type="text" id="rows" value="5" />
+        <label for="cols">Colums</label>
+        <input type="text" id="cols" value="4" />
+        <label for="closestCells">Closest cells</label>
+        <input type="text" id="closestCells" value="4" />
         <button class="draw-btn">Draw Table-Table</button>
       </form>
       <table class="table">
